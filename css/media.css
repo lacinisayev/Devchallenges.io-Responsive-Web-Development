@@ -1,0 +1,83 @@
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .notFoundText {
+      margin: 5%;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .row1 {
+      display: flex;
+      justify-content: center;
+    }
+    .row1 > img {
+      width: 90%;
+    }
+    .row2 > .header {
+      width: 100%;
+      margin-top: -2rem;
+      margin-bottom: 10%;
+      margin-left: 0.5rem;
+      font-size: 2.8rem;
+      line-height: 71px;
+    }
+    .row2 > .bottomText {
+      width: 250px;
+      height: 81px;
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 10%;
+      margin-left: 5%;
+    }
+    button {
+      margin-left: 5%;
+      margin-bottom: 15%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+    .row1,
+    .row2 {
+      width: 100%;
+      margin: 10%;
+    }
+    .row1 > img {
+      width: cacl(100% + 20px);
+    }
+    .row2 > .header {
+      width: 100%;
+      margin-bottom: 10%;
+    }
+    .row2 > .bottomText {
+      font-size: 90%;
+      margin-bottom: 10%;
+    }
+    button {
+      margin-bottom: 20%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .container{
+      width: 100%;
+      margin-top: -5%;
+    }
+    .row1,.row2{
+      width: 50%;
+    }
+    .header{
+      width: 40%;
+    }
+    .bottomText{
+      width: 60%;
+      font-size:3rem;
+    }
+    .footer{
+        margin-bottom: 1%;
+    }
+  }
