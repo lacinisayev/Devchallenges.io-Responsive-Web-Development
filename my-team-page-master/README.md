@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://friendly-bhaskara-41dfdb.netlify.app/">
+    <a href="https://keen-mcclintock-d120e8.netlify.app">
       Demo
     </a>
     <span> | </span>
@@ -32,7 +32,7 @@
 <!-- OVERVIEW -->
 ## Overview
 
-- Demo (https://friendly-bhaskara-41dfdb.netlify.app/)
+- Demo (https://keen-mcclintock-d120e8.netlify.app)
 
 ### Built With
 
