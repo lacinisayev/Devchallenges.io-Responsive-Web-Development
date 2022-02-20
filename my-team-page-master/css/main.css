@@ -1,0 +1,79 @@
+/* Reset Css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main header */
+.main-header {
+  font-family: PT Serif, sans-serif;
+  font: 2rem 700;
+  line-height: 3rem;
+  letter-spacing: -0.045em;
+  color: #000000;
+}
+
+/* intro header  */
+.intro-header {
+  font-family: Poppins;
+  font-weight: 1.125rem 600;
+  line-height: 1.6875rem;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #000000;
+}
+.heading{
+  padding-top: 80px;
+  padding-bottom: 46px;
+}
+/* Text */
+.bottomText {
+  width: 439px;
+  height: 87px;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  color: #000000;
+}
+
+.position {
+  font-family: PT Serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #000000;
+  writing-mode: vertical-rl;
+}
+
+div.container >  div:nth-child(2){
+  margin-top: 15%;
+ }
+ div.container >  div:nth-child(5){
+     margin-top: 15%;
+    }
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 17px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+footer > p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  /* identical to box height */
+  color: #a9a9a9;
+}
+footer > p > a {
+  text-decoration: none;
+  color: #a9a9a9;
+}
+footer > p > a:hover {
+  text-decoration: underline;
+  color: #797676;
+}
