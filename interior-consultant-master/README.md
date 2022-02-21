@@ -39,7 +39,6 @@
 - [Html5]
 - [Css3]
 - [Bootstrap5] (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
- 
 -[Javascript]
 
 ## Contact
