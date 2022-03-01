@@ -1,0 +1,141 @@
+// Css reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Fonts
+header .main-header,
+div.container .container__header,
+.number {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+header {
+  .bottom-component {
+    display: flex;
+    width: 75%;
+    margin-left: 4%;
+    .bottom-Text {
+      width: 85%;
+      font-family: "Montserrat", sans-serif;
+      font-style: italic;
+      font-weight: 500;
+    }
+  }
+  img {
+    border-radius: 12px;
+  }
+}
+.container {
+  &__about {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  &__components,
+  &__text {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+  &__components {
+    margin-bottom: 1rem;
+    display: flex;
+    input {
+      width: 21px;
+      height: 21px;
+      border: 1px solid #828282;
+      box-sizing: border-box;
+      border-radius: 4px;
+    }
+    label {
+      margin-left: 0.5rem;
+    }
+  }
+  &__text {
+    margin-left: 1rem;
+  }
+  &__span {
+    font-weight: 700;
+  }
+  .step {
+    display: flex;
+    margin-top: 1rem;
+  }
+}
+.card {
+  border: none !important;
+  display: flex;
+  align-items: center;
+  &__body {
+    position: relative;
+    display: flex;
+  }
+  &__about {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #bdbdbd;
+  }
+  &__time {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+}
+.orange {
+  color: #f2994a;
+}
+
+.number {
+  width: 36px;
+  height: 32px;
+  background-color: #f2994a;
+  font-size: 24px;
+  line-height: 32px;
+  position: relative;
+  &__span {
+    color: #ffffff;
+    position: absolute;
+    left: 13px;
+    bottom: 4px;
+  }
+}
+.source {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  /* Gray 4 */
+  a {
+    color: #bdbdbd;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+  }
+}
+footer {
+  margin-top: 5rem;
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    /* Gray 4 */
+    color: #bdbdbd;
+    a {
+      color: #857c7c;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #bdbdbd;
+      border-bottom: 1px solid #bdbdbd;
+    }
+  }
+}
