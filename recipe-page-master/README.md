@@ -39,7 +39,7 @@
 - [Html5]
 - [Css3]
 - [Bootstrap5] (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
--[Sass(Scss)] (https://sass-lang.com/)
+- [Sass(Scss)] (https://sass-lang.com/)
 
 ## Contact
 
